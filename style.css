@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+html {
+  font-size: 16px; 
+}
+
+body {
+  background: #e5e5e5;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.Column-Flex{
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 24rem; 
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background-color: #151921;
+  color: white;
+  margin-top: 3rem;
+}
+
+
+.card h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.card .content {
+  font-size: 0.9rem;
+  color: #aaa;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.img-box {
+  width: 100%;
+  aspect-ratio: 1 / 1; 
+  background: #222;
+  border-radius: 0.5rem;
+}
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+  border-radius: 0.5rem;
+}
+.Start {
+  font-size: 0.875rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.img-box:nth-child(4) {
+  background: url("https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/03/theo-plawinski-sticky-grid-scroll-featured-image-400x300.webp?x11681") center/cover no-repeat;
+}
+.Webzibition .card {
+  background: url("https://codrops-1f606.kxcdn.com/codrops/wp-content/themes/codropstheme03/images/webzibition_cover.webp") center/cover no-repeat;
+  border-radius: 0.75rem;
+  color: white;
+  min-height: 15rem; 
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.Case .card {
+  background: #2596be;  
+  border-radius: 0.75rem;
+  height: 20rem;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.Case .content{
+  color:black
+}
+.img-box-1 {
+  width: 100%;
+  aspect-ratio: 1 / 1; 
+  background: #222;
+  border-radius: 0.5rem;
+}
+.img-box-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+  border-radius: 0.5rem;
+}
+.img-box-1.img-box-1:nth-child(2){
+  background: url(https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2025/11/cover_photo3_sm-400x300.png?x79234); 
+}
+.Tutorials .card{
+  background: #252e34;
+}
+.img-box-2 {
+  width: 100%;
+  aspect-ratio: 1 / 1; 
+  background: #222;
+  border-radius: 0.5rem;
+}
+.img-box-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+  border-radius: 0.5rem;
+}
+.First-column{
+  display: flex;
+  flex-direction:column
+}
+
+.Second-Column{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.article-card {
+  display: flex;
+  gap: 1rem;               
+  margin-bottom: 1.5rem;   
+  align-items: flex-start; 
+  max-width: 500px;        
+  margin: 3rem;
+}
+
+.article-card img {
+  width: 10rem;            
+  height: 10rem;            
+  border-radius: 0.5rem;
+}
+
+.article .text {
+  flex: 1;                 
+}
+.article .title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.5;
+  color: #000;
+}
+
+.article .authors {
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.2;
+}
+
+.site-footer {
+  background-color: #ddd; 
+  width:100vw;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+  color: #000;
+  user-select: none;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-column {
+  flex: 1 1 150px;
+  min-width: 140px;
+}
+
+.footer-column h4 {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.4rem;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.2s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #555;
+}
+
+.footer-cdn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 0.25rem;
+  min-width: 130px;
+  font-weight: 600;
+}
+
+.footer-cdn span {
+  font-size: 1rem;
+}
+
+.footer-cdn img {
+  max-width: 100px;
+  height: auto;
+  user-select: none;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #bbb;
+  padding-top: 1rem;
+}
+
+.patreon-support img {
+  height: 40px;
+  user-select: none;
+  cursor: pointer;
+}
+
